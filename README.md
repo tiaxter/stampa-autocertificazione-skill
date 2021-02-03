@@ -25,7 +25,7 @@ l'autocertificazione.
    corrette
 2) Eseguire il seguente comando in una nuova sessione del terminale:
       ```shell
-         ngrok http 3000 # porta presente nel file .env
+         ngrok http 3000 # porta esterna presente nel file docker-compose
       ```
 3) Copiare il link generato dal comando precedente all'interno del file `skill-package/skill.json`
    ![img.png](image/img.png)
