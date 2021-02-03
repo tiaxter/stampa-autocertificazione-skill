@@ -1,0 +1,12 @@
+{
+  "watch": [
+    "src"
+  ],
+  "ext": "ts",
+  "ignore": [
+    "src/**/*.spec.ts"
+  ],
+  "exec": "cross-env NODE_ENV=development ts-node --files --project tsconfig.json src",
+  "inspect": true,
+  "verbose": true
+}

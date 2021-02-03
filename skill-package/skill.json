@@ -1,0 +1,30 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "summary": "Stampa Autocertificazione ti permette di poter stampare una autocertificazione direttamente dal tuo dispositivo Alexa",
+          "examplePhrases": [
+            "Alexa stampa autocertificazione",
+            "Alexa apri stampa autocertificazione"
+          ],
+          "name": "stampa-autocertificazione",
+          "description": "Stampa Autocertificazione ti permette di poter stampare una autocertificazione direttamente dal tuo dispositivo Alexa"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "INSERIRE QUA URL",
+          "sslCertificateType": "Wildcard"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
