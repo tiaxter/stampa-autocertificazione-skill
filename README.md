@@ -17,7 +17,7 @@ l'autocertificazione.
 * [Ngrok](https://ngrok.com/)
 * ASK-CLI installato e configurato
   * Per installare eseguire: `npm i ask-cli -g`
-  * Per configurare eseguire `ask-cli configure`
+  * Per configurare eseguire `ask configure`
 
 ## 🔰 Per inizare
 
