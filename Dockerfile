@@ -9,7 +9,7 @@ COPY . .
 WORKDIR /app/lambda
 COPY ./lambda/package*.json ./
 RUN npm ci
-EXPOSE 3002
+EXPOSE 3000
 
 FROM base AS dev
 ENV NODE_ENV=development
