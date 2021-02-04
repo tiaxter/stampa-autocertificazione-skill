@@ -1,3 +1,4 @@
 node_modules/
 .ask/
+.env
 .DS_Store
