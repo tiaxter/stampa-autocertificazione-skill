@@ -1,0 +1,15 @@
+name: Build Environment
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Docker Container
+        uses: actions/checkout@v2
+        run:
+          docker-compose up -d --build
