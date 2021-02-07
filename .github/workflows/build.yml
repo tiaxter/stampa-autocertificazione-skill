@@ -1,0 +1,14 @@
+name: Docker Environment Building
+
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Docker Compose Environment
+        run:
+          docker-compose up -d --build

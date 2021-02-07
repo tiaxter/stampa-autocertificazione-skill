@@ -1,5 +1,7 @@
 # Stampa Autocertificazioni
 
+![Docker Environment Building](https://github.com/tiaxter/stampa-autocertificazione-skill/workflows/Docker%20Environment%20Building/badge.svg)
+
 ## 💡 Proposito
 
 Semplificarmi la vita in tempi di pandemia e fare in modo di poter stampare autocertificazioni al volo, senza stare ad
